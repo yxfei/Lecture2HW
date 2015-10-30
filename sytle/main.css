@@ -103,7 +103,10 @@ li.list__short-list {
  }
 
 img {
-	max-width: 100%;
+	max-width: 20%;
+	margin: 5px;
+	border: 1px solid #eee;
     height: auto;
     width: auto;
+    padding: 5px 5px;
 }
