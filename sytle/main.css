@@ -1,0 +1,109 @@
+body {
+	background: rgb(64,64,64);
+	border: 5px solid #eee;
+	margin: 80px;
+	padding: 50px 90px 50px 90px;
+}
+
+.content-bookend {
+	padding-top: 20px;
+}
+
+.title__font {
+	color: white;
+	font-size: 56px;
+	text-align: center;
+	font-style: italic;
+}
+
+.nav { /* this is a  block */
+	padding: 30px 0;
+	border-bottom: 2px solid #eee;
+	text-align: center;
+}
+
+.nav--bottomborder {
+	border-bottom: none;
+	border-top: 2px solid #eee;
+}
+.nav__link { /* this is an element of the nav block */
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(50,255,150);
+	padding: 0 20px;
+	border-right: 1px solid #eee;
+	display: inline-block;
+    line-height: 15px;
+}
+
+.nav__link--rightborder {
+	border-right: none;
+}
+
+.paragraph__content {
+	color: rgb(216,216,216);
+}
+
+.nav__link--active {
+	color: white;
+	font-weight: 800;
+	text-decoration: none;
+	pointer-events: none;
+}
+
+.sectionTitle {
+	color: white;
+	text-align: left;
+	padding: 10px 0 10px 0;
+}
+
+.blockTitle {
+	color: rgb(216,216,216);	
+}
+
+li {
+	color: rgb(216, 216, 216);
+	padding: 15px 10px 10px 10px;
+}
+
+li span {
+	color: white;	
+}
+
+div {
+	border: 1px solid #eee;
+	padding: 5px 5px 5px 5px;
+}
+
+.span--boldText{
+	font-weight: 600
+}
+
+.span--year{
+	font-size: 12px;
+}
+
+.span--sectionText{
+	font-size: 16px;
+	padding: 0 0 0 10px;
+	color: rgb(216, 216, 216);
+	text-decoration: none;
+}
+
+.Section__Lower{
+	padding: 0 0 20px 0;
+}
+
+li.list__short-list {
+	padding: 5px 10px 5px 10px;
+}
+
+.paragraph__inlineBlock {
+	dispaly: inline-block;
+ }
+
+img {
+	max-width: 100%;
+    height: auto;
+    width: auto;
+}
