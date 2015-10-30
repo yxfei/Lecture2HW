@@ -1,8 +1,8 @@
 body {
 	background: rgb(64,64,64);
 	border: 5px solid #eee;
-	margin: 25px;
-	padding: 50px 40px 50px 50px;
+	margin: 80px;
+	padding: 50px 90px 50px 90px;
 }
 
 .content-bookend {
@@ -63,18 +63,47 @@ body {
 
 li {
 	color: rgb(216, 216, 216);
-	padding: 10px 10px 10px 10px;
+	padding: 15px 10px 10px 10px;
 }
 
 li span {
-	font-weight: 600;
 	color: white;	
+}
+
+div {
+	border: 1px solid #eee;
+	padding: 5px 5px 5px 5px;
+}
+
+.span--boldText{
+	font-weight: 600
 }
 
 .span--year{
 	font-size: 12px;
 }
 
+.span--sectionText{
+	font-size: 16px;
+	padding: 0 0 0 10px;
+	color: rgb(216, 216, 216);
+	text-decoration: none;
+}
 
+.Section__Lower{
+	padding: 0 0 20px 0;
+}
 
+li.list__short-list {
+	padding: 5px 10px 5px 10px;
+}
 
+.paragraph__inlineBlock {
+	dispaly: inline-block;
+ }
+
+img {
+	max-width: 100%;
+    height: auto;
+    width: auto;
+}
